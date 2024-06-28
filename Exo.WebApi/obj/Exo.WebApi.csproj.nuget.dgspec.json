@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SILVANO\\Desktop\\Exo.WebApi\\Exo.WebApi.csproj": {}
+    "C:\\Users\\JEAN\\Downloads\\API\\API-Context\\Exo.WebApi\\Exo.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SILVANO\\Desktop\\Exo.WebApi\\Exo.WebApi.csproj": {
+    "C:\\Users\\JEAN\\Downloads\\API\\API-Context\\Exo.WebApi\\Exo.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SILVANO\\Desktop\\Exo.WebApi\\Exo.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\JEAN\\Downloads\\API\\API-Context\\Exo.WebApi\\Exo.WebApi.csproj",
         "projectName": "Exo.WebApi",
-        "projectPath": "C:\\Users\\SILVANO\\Desktop\\Exo.WebApi\\Exo.WebApi.csproj",
-        "packagesPath": "C:\\Users\\SILVANO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SILVANO\\Desktop\\Exo.WebApi\\obj\\",
+        "projectPath": "C:\\Users\\JEAN\\Downloads\\API\\API-Context\\Exo.WebApi\\Exo.WebApi.csproj",
+        "packagesPath": "C:\\Users\\JEAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JEAN\\Downloads\\API\\API-Context\\Exo.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SILVANO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\JEAN\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -77,6 +79,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -85,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
